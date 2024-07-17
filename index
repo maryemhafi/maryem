@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav> 
+        <img src="logo-default-group-en.svg" alt="" />
+  
+        <ul>
+          <li id="about">about us</li>
+          <li>career</li>
+          <li>departements</li>
+        </ul>
+      </nav>
+      <!-- end of navbar -->
+      <!-- making section -->
+      <div id="section">
+          <img src="sygnet.png" alt="" id="img"/>
+          <h1>Making the healthcare experience more human</h1>
+          <div id="paragraph">
+              <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+              <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+        </div>
+      </div>
+      <!-- end of making section -->
+      <!-- making article -->
+      <div id="article">
+          <div class="patient card" id="la">
+              <div >
+             <img src="icon-patients.svg" alt="" class="bild"/>
+              <h1 class="position">for patients</h1>
+                <p class="ss">Find a doctor, book a visit and solve any health-related doubt</p>
+            </div>
+                <select name="selectOption" class="patient">
+                    <option value="option">choose your country</option>
+                    <option value="option">Brazil</option>
+                    <option value="option" class="zu">Chile</option>
+                    <option value="option" class="zu">colombia</option>
+                    <option value="option" class="zu">Germany</option>
+                    <option value="option" class="zu">Tunisia</option>
+                    <option value="option" class="zu">Spain</option>
+                    <option value="option" class="zu">Turkey</option>
+                </select>      
+             </div>
+            <div class="doctor card" id="aa">
+                <div>
+                <img src="icon-doctors.svg" alt="" class="bild"/>
+                <h1 class="position">for doctors</h1> 
+                <p class="ss">Save time managing visits and cut no-shows by half</p>
+                </div>
+                <select name="selectoption" class="doctor">
+                    <option value="option">choose your country</option>
+                    <option value="option">Brazil</option>
+                    <option value="option">Chile</option>
+                    <option value="option">colombia</option>
+                    <option value="option" >Germany</option>
+                    <option value="option" >Tunisia</option>
+                    <option value="option" >Spain</option>
+                    <option value="option">Turkey</option>
+                </select>       
+            </div>
+            <div class="clinics card" id="bb">
+                <div>
+                <img src="icon-clinics.svg" alt="" class="bild"/>
+                <h1 class="position">for clinics</h1> 
+                <p class="ss">Deliver an exceptional patient experience in your clinic</p>
+                </div>
+                <p>
+                <select name="selectOption" class="clinics">
+                    <option value="option" >2 to 20 specialitis</option>
+                    <option value="option" >Spain</option>
+                    <option value="option" >Polan</option>
+                    <option value="option" >Turkey</option>
+                    <option value="option" >Czech</option>
+                    <option value="option">Mexico</option>
+                    <option value="option">Italt</option>
+                </select> 
+                </p>
+                <p>
+                <select name="selectOption" class="clinics">
+                    <option value="option" >more then 20 specialitis</option>
+                    <option value="option" >Spain</option>
+                    <option value="option" >Polan</option>
+                    <option value="option" >Turkey</option>
+                    <option value="option" >Czech</option>
+                    <option value="option" >Mexico</option>
+                    <option value="option" >Italt</option>
+               </select> 
+               </p>
+                </select>        
+            </div>
+        </div>
+      <!-- end of making article -->
+      <!-- making aside -->
+      <div id="aside">
+          <p id="p">
+            We are a global <br> with local culture
+          </p>
+          <div>
+              <ul id="alors">
+                  <li class="alors"><a href=""><img src="logo-mktpl-znanylekarz-color.png" alt="" class="kk" ></a></li>
+                  <li class="alors"><a href=""><img src="OIP.jpeg" alt="" class="kk" ></a></li>
+                  <li class="alors"><a href=""><img src="OIP (1).jpeg " alt="" class="kk"></a></li>
+                  <li class="alors"><a href=""><img src="R.png" alt="" class="kk"></a></li>
+              </ul>
+              <ul id="donc">
+                  <li class="wo"><img src="OIP (2).jpeg" alt="" class="kk"></li>
+                  <li class="wo"><img src="logo-jameda.svg" alt="" class="kk"></li>
+                  <li class="wo"><img src="logo-default-group-en.svg" alt=""  class="kk"></li>
+                  <li class="wo"><img src="logo-gipo-primary.svg" alt=""  class="kk"></li>
+                  <li class="wo"><img src="logo-clinicloud.svg" alt=""  class="kk"></li>
+                </ul>
+                <ul id="so">
+                  <li class="wo"><img src="logo-feegow.svg" alt=""  class="kk"></li>
+                  <li class="wo"><img src="my-dr-edm-logo.svg" alt=""  class="kk"></a></li>
+              </ul>
+          </div>
+      </div>
+      <!-- end of making aside -->
+      <!-- countries -->
+      <div class="allcountries">
+          <div class="country">
+            <img src="warsaw.png" alt=""/>
+            <div>
+                <p>Warsaw</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="barcelona.png" alt=""/>
+            <div>
+                <p>Barcelona</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="munich.png" alt=""/>
+            <div>
+                <p>Munich</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="istanbul.png" alt=""/>
+            <div>
+                <p>Istanbul</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="rome.png" alt=""/>
+            <div>
+                <p>Rome</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="bologna.png" alt=""/>
+            <div>
+                <p>bolonga</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="curitiba.png" alt=""/>
+            <div>
+                <p>curitiba</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="rio-janeiro.png" alt=""/>
+            <div>
+                <p>Rio-janeiro</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="mexico-city.png" alt=""/>
+            <div>
+                <p>mexico-city</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+          <div class="country">
+            <img src="bogota.png" alt=""/>
+            <div>
+                <p>Bogota</p>
+                <button class="id">see openings</button>
+            </div>
+          </div>
+      </div>
+      <!-- end of countries -->
+      <!-- footer -->
+      <div class="footer">
+          <div>
+            <p id="s1">Sounds interesting? Join us now!</p> 
+            <button id="s2">SEE ALL CURRENT OPENINGS</button>
+          </div>
+          <div>
+          <hr>
+          <p id="hello">We are leaders in 13 countries: Poland, Turkey, Spain, Italy, Germany, Czech Republic, Portugal, Mexico, Colombia, Brazil, Argentina, Peru and Chile</p>
+           <p id="hola"> www.docplanner.com © 2024</p>
+          </div>
+      </div>
+      <!-- end of footer -->
